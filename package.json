@@ -1,7 +1,7 @@
 {
   "name": "zoho-subscriptions",
   "version": "0.0.0",
-  "description": "My glorious module",
+  "description": "Zoho subscriptions API wrapper for node.",
   "license": "MIT",
   "repository": "madmod/zoho-subscriptions",
   "author": {
@@ -9,19 +9,25 @@
     "email": "madmodmail@gmail.com",
     "url": "johnathanwells.com"
   },
+  "main": "./lib/index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter nyan ./test"
   },
   "files": [
     "index.js"
   ],
   "keywords": [
-    ""
+    "zoho"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^3.9.3",
+    "qs": "^3.1.0",
+    "superagent": "^1.2.0"
+  },
   "devDependencies": {
     "mocha": "*"
   }

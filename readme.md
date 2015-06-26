@@ -1,6 +1,6 @@
 # zoho-subscriptions [![Build Status](https://travis-ci.org/madmod/zoho-subscriptions.svg?branch=master)](https://travis-ci.org/madmod/zoho-subscriptions)
 
-> My glorious module
+Zoho subscriptions API wrapper for node.
 
 
 ## Install
@@ -11,6 +11,8 @@ $ npm install --save zoho-subscriptions
 
 
 ## Usage
+
+To run the example you must obtain an API key and organization id as expained [here](https://www.zoho.com/subscriptions/api/v1/#authentication).
 
 ```js
 var zohoSubscriptions = require('zoho-subscriptions');
