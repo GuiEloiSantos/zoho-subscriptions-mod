@@ -1,4 +1,4 @@
-# zoho-subscriptions [![Build Status](https://travis-ci.org/madmod/zoho-subscriptions.svg?branch=master)](https://travis-ci.org/madmod/zoho-subscriptions)
+# zoho-subscriptions [![Build Status](https://travis-ci.org/madmod/zoho-subscriptions.svg?branch=master)](https://travis-ci.org/madmod/zoho-subscriptions) [![npm downloads](https://img.shields.io/npm/dm/localeval.svg)]
 
 Zoho subscriptions API wrapper for node.
 
