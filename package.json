@@ -1,6 +1,6 @@
 {
   "name": "zoho-subscriptions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zoho subscriptions API wrapper for node.",
   "license": "MIT",
   "repository": "madmod/zoho-subscriptions",
