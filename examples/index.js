@@ -1,7 +1,7 @@
 'use strict';
 
 // Create your own credentials.json from the sample
-var apiCredentials = JSON.parse(require('fs').readFileSync('../credentials.json'));
+var apiCredentials = JSON.parse(require('fs').readFileSync(__dirname + '/../credentials.json'));
 
 var ZohoSubscriptions = require('../lib');
 
