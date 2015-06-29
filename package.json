@@ -14,7 +14,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha --reporter nyan ./test"
+    "test": "mocha --reporter nyan ./test",
+    "watch": "mocha --watch --reporter nyan ./test"
   },
   "files": [
     "index.js"
