@@ -58,7 +58,6 @@ describe('zoho-subscriptions', function () {
     body.message.should.equal('success');
 
     response.statusCode.should.satisfy(function (code) {
-      console.log('code', code)
       return [200, 201].indexOf(code) !== -1;
     }, 'bad http status code');
   };
