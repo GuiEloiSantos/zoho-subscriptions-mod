@@ -15,7 +15,8 @@
   },
   "scripts": {
     "test": "mocha --reporter nyan ./test",
-    "watch": "mocha --watch --reporter nyan ./test"
+    "watch": "mocha --watch --reporter nyan ./test",
+    "preversion": "npm test"
   },
   "files": [
     "lib",
