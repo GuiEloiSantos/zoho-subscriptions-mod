@@ -18,7 +18,10 @@
     "watch": "mocha --watch --reporter nyan ./test"
   },
   "files": [
-    "index.js"
+    "lib",
+    "test",
+    "examples",
+    "credentials.json.sample"
   ],
   "keywords": [
     "zoho"
